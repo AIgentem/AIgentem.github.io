@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="43877cb0-dac5-4921-be1a-20fd59095d79" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Roboto/Roboto-Black.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Roboto/Roboto-Black.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Roboto/Roboto-Black.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Roboto/Roboto-Black.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Roboto/Roboto-Black.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Roboto/Roboto-Medium.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Roboto/Roboto-Medium.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Roboto/Roboto-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Roboto/Roboto-Medium.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Roboto/Roboto-Medium.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Roboto/Roboto-Regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Roboto/Roboto-Regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Roboto/Roboto-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Roboto/Roboto-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Roboto/Roboto-Regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/RobotoSlabBold/RobotoSlabBold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/RobotoSlabBold/RobotoSlabBold.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/RobotoSlabBold/RobotoSlabBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/RobotoSlabBold/RobotoSlabBold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/RobotoSlabBold/RobotoSlabBold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/RobotoSlabRegular/RobotoSlabRegular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/RobotoSlabRegular/RobotoSlabRegular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/RobotoSlabRegular/RobotoSlabRegular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/RobotoSlabRegular/RobotoSlabRegular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/RobotoSlabRegular/RobotoSlabRegular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/-ланч-e1539676710930.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/1509249600_1504687988_lyulya-kurinoe.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/20936716-Moscow-city-skyline-silhouette-illustration-Stock-Vector.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/211_shashlyk-iz-myakoti-baraniny.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/2251799848222926_bb06.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/560_original.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/65e183d3382b7ba1aabc8b09beb84ce0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/72b909ae4d5229dbd472098edec46c1a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/92e26e98b4fa44216373b8d2d034d589.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/9643a279fc8a53cd3a70d8d11ea6fe4d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/9bc7738a6a3d9554323ef9f8db5da454.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Meat_products_Roast_Chicken_Plate_Ketchup_537635_3840x2400.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Vegetables_Tomatoes_389116.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/_853938492.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/a317d1db27bcfa3a7708f7e909e9605c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/abac91dfb9374e3da7e78a4b4bf82e7d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/d775003f163bcf80e8309fc1232c8703.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/depositphotos_74070077-stock-photo-beef-steaks-with-grilled-vegetables.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/ebe6bdcd3388b8347d2a4391fb1c64a1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/ff7efaa4aba8b30e201d997a91640159.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/food-1050813_960_720.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/img_5426shashlyik_iz_kare_yagnenka6f6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/img_9026.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/mad-for-med-web.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/maso-kartofel-stejk-rozmarin.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/p36_20101.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/pomidory-spetsii-olivki-makarony.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tekstura_dereva.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/github.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="67" />
+    <option name="y" value="27" />
+    <option name="width" value="907" />
+    <option name="height" value="1053" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="github" type="b2602c69:ProjectViewProjectNode" />
+              <item name="github" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="43877cb0-dac5-4921-be1a-20fd59095d79" name="Default Changelist" comment="" />
+      <created>1555246187834</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1555246187834</updated>
+      <workItem from="1555246189105" duration="27000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="27000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24958494" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
