@@ -817,7 +817,7 @@
                     <div class="col-12 col-sm-6 col-md-4 col-xl-3">
                         <div class="menu-wrap">
                             <div class="menu-itm">
-                                <div class="menu-img" style="background-image: url('img/211_shashlyk-iz-myakoti-baraniny.jpg')">
+                                <div class="menu-img" style="background-image: url('img/ff7efaa4aba8b30e201d997a91640159.jpg')">
                                 </div>
                                 <div class="menu-body">
                                     <h3 class="menu-body-title">
@@ -861,7 +861,7 @@
                     <div class="col-12 col-sm-6 col-md-4 col-xl-3">
                         <div class="menu-wrap">
                             <div class="menu-itm">
-                                <div class="menu-img" style="background-image: url('img/img_5426shashlyik_iz_kare_yagnenka6f6.jpg')">
+                                <div class="menu-img" style="background-image: url('img/65e183d3382b7ba1aabc8b09beb84ce0.jpg')">
                                 </div>
                                 <div class="menu-body">
                                     <h3 class="menu-body-title">
@@ -905,7 +905,7 @@
                     <div class="col-12 col-sm-6 col-md-4 col-xl-3">
                         <div class="menu-wrap">
                             <div class="menu-itm">
-                                <div class="menu-img" style="background-image: url('img/9bc7738a6a3d9554323ef9f8db5da454.jpg')">
+                                <div class="menu-img" style="background-image: url('img/ebe6bdcd3388b8347d2a4391fb1c64a1.jpg')">
                                 </div>
                                 <div class="menu-body">
                                     <h3 class="menu-body-title">
@@ -949,7 +949,7 @@
                     <div class="col-12 col-sm-6 col-md-4 col-xl-3">
                         <div class="menu-wrap">
                             <div class="menu-itm">
-                                <div class="menu-img" style="background-image: url('img/1509249600_1504687988_lyulya-kurinoe.jpg')">
+                                <div class="menu-img" style="background-image: url('img/92e26e98b4fa44216373b8d2d034d589.jpg')">
                                 </div>
                                 <div class="menu-body">
                                     <h3 class="menu-body-title">
@@ -1000,7 +1000,7 @@
                     <div class="col-12 col-sm-6 col-md-8 col-xl-6">
                         <div class="menu-wrap">
                             <div class="menu-itm">
-                                <div class="menu-img" style="background-image: url('img/Meat_products_Roast_Chicken_Plate_Ketchup_537635_3840x2400.jpg')">
+                                <div class="menu-img" style="background-image: url('img/Vegetables_Tomatoes_389116.jpg')">
                                 </div>
                                 <div class="menu-body">
                                     <h3 class="menu-body-title">
@@ -1046,7 +1046,7 @@
                     <div class="col-12 col-sm-6 col-md-8 col-xl-6">
                         <div class="menu-wrap">
                             <div class="menu-itm">
-                                <div class="menu-img" style="background-image: url('img/Meat_products_Roast_Chicken_Plate_Ketchup_537635_3840x2400.jpg')">
+                                <div class="menu-img" style="background-image: url('img/2251799848222926_bb06.jpg')">
                                 </div>
                                 <div class="menu-body">
                                     <h3 class="menu-body-title">
@@ -1137,7 +1137,7 @@
                         </h3>
                         <input type="text" class="input-DL" name="name" placeholder="Имя">
                         <input type="tel" class="input-DL" name="phone" placeholder="Телефон">
-                        <button class="btn btn-form" type="button" data-toggle="modal" data-target="#orderModal">Получить консультацию</button>
+                        <button class="btn btn-form" type="button" data-toggle="modal" data-target="#callbackModal">Получить консультацию</button>
                     </form>
                 </div>
             </div>
@@ -1393,6 +1393,73 @@
         });
 
     }
+
+    $( document ).ready(function() {
+
+        //Обратный отсчет
+
+        /*
+        * Писал пьяным, не судить
+        * */
+        var dayDom = $('.timer-day').find('.timer-num:first-child')
+        var day2Dom = $('.timer-day').find('.timer-num:last')
+        var hourDom = $('.timer-hour').find('.timer-num:first-child')
+        var hour2Dom = $('.timer-hour').find('.timer-num:last')
+        var minuteDom = $('.timer-minute').find('.timer-num:first-child')
+        var minute2Dom = $('.timer-minute').find('.timer-num:last')
+        var secondDom = $('.timer-second').find('.timer-num:first-child')
+        var second2Dom = $('.timer-second').find('.timer-num:last')
+
+        setInterval(function() {
+            var startDate = new Date(),
+                endDate   = new Date(2019, 4, 20, 0, 0, 0),
+                seconds = (endDate.getTime() - startDate.getTime()) / 1000,
+                day = Math.floor(seconds / (60 * 60 * 24)),
+                hour = Math.floor(seconds / (60 * 60)),
+                minute = Math.floor(seconds / (60))
+
+            var newSecond = Math.floor(seconds - minute * 60),
+                newMinute = Math.floor((seconds - hour * 60 * 60) / (60)),
+                newHour = Math.floor((seconds - day * 60 * 60 * 24) / (60 * 60)),
+                newDay = day
+
+            if (!(newDay < 0)){
+                if (newSecond < 10){
+                    secondDom.text('0')
+                    second2Dom.text(String(newSecond)[0])
+                } else {
+                    secondDom.text(String(newSecond)[0])
+                    second2Dom.text(String(newSecond)[1])
+                }
+
+                if (newMinute < 10){
+                    minuteDom.text('0')
+                    minute2Dom.text(String(newMinute)[0])
+                } else {
+                    minuteDom.text(String(newMinute)[0])
+                    minute2Dom.text(String(newMinute)[1])
+                }
+
+                if (newHour < 10){
+                    hourDom.text('0')
+                    hour2Dom.text(String(newHour)[0])
+                } else {
+                    hourDom.text(String(newHour)[0])
+                    hour2Dom.text(String(newHour)[1])
+                }
+
+                if (newDay < 10){
+                    dayDom.text('0')
+                    day2Dom.text(String(newDay)[0])
+                } else {
+                    dayDom.text(String(newDay)[0])
+                    day2Dom.text(String(newDay)[1])
+                }
+            }
+        }, 1000)
+
+        //END Обратный отсчет
+    });
 </script>
 </body>
 </html>
