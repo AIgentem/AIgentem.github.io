@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        .sidebarTest {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 200px;
+            background: #ddd;
+            transform: translate(-105%);
+            transition: .2s
+        }
+        .sidebarTest__open {
+            transform: translate(0)
+        }
+    </style>
+</head>
+<body>
+
+<div class="sidebarTest">
+    <h1>Закрой</h1>
+</div>
+
+<button class="open__js">Жмак!</button>
+
+<script src="js/main.js?=2"></script>
+<script>
+    $('.open__js').on('click', function(){
+        console.log('Жмак!')
+
+        $(this).toggleClass('open2__js')
+
+        if ($(this).hasClass('open2__js')) {
+            $('.sidebarTest').addClass('sidebarTest__open')
+            console.log('true')
+        } else {
+            $('.sidebarTest').removeClass('sidebarTest__open')
+            console.log('false')
+        }
+    })
+
+    $(document).mouseup(function (e){
+        let div = $(".sidebarTest");
+        if (!div.is(e.target) && div.has(e.target).length === 0) {
+            console.log(div.is(e.target))
+            $('.open__js').removeClass('open2__js')
+            div.removeClass('sidebarTest__open');
+        }
+    });
+
+</script>
+</body>
+</html>
