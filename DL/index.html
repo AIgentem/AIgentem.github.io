@@ -1,14 +1,29 @@
 <!doctype html>
 <html lang="en">
 <head>
+
+    <title>Delivery Lunch</title>
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#e79d42">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/main.css?=3.1">
 
-    <title>Hello, world!</title>
+    <!--  Favicon  -->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#e69336">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#764718">
+    <meta name="msapplication-config" content="img/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!--  END Favicon  -->
+
 </head>
 <body>
 
@@ -1419,7 +1434,7 @@
 
         /*
         * Писал пьяным, не судить
-        * */
+        */
         var dayDom = $('.timer-day').find('.timer-num:first-child')
         var day2Dom = $('.timer-day').find('.timer-num:last')
         var hourDom = $('.timer-hour').find('.timer-num:first-child')
@@ -1431,7 +1446,7 @@
 
         setInterval(function() {
             var startDate = new Date(),
-                endDate   = new Date(2019, 4, 20, 0, 0, 0),
+                endDate   = new Date(2019, 5, 21, 0, 0, 0),
                 seconds = (endDate.getTime() - startDate.getTime()) / 1000,
                 day = Math.floor(seconds / (60 * 60 * 24)),
                 hour = Math.floor(seconds / (60 * 60)),
